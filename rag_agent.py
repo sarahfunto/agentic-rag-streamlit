@@ -1,5 +1,6 @@
 
 import os
+os.environ["TRANSFORMERS_NO_TF"] = "1"
 from typing import Dict, Any, List
 
 from tavily import TavilyClient

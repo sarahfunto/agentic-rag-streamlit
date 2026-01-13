@@ -8,3 +8,4 @@ faiss-cpu
 tiktoken
 langchain-text-splitters
 sentence-transformers
+tavily-python
