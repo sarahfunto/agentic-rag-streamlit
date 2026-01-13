@@ -1,0 +1,14 @@
+Agentic RAG means an AI agent that can decide when to use tools.
+It can search in a local knowledge base and also use web search tools.
+
+RAG (Retrieval-Augmented Generation) helps the model answer using real documents.
+The model first retrieves relevant text, then reads it, and then writes the final answer.
+
+A retriever is a component that finds the most relevant text chunks using embeddings.
+It does not generate text, it only selects useful information.
+
+Vector embeddings turn text into numbers so similar texts are close to each other.
+FAISS is a vector database used to store and search these embeddings efficiently.
+
+Using sources is important to reduce hallucinations.
+Good RAG systems always show where the information comes from.
